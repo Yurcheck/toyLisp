@@ -1,5 +1,7 @@
 use std::error::Error;
 
+mod token;
+
 pub const LANG_NAME: &'static str = "ToyLISP";
 
 pub fn run_file(file_path: &str) -> Result<(), Box<dyn Error>> {
