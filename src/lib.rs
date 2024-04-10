@@ -1,6 +1,7 @@
 use std::error::Error;
 
 mod token;
+mod scanner;
 
 pub const LANG_NAME: &'static str = "ToyLISP";
 
